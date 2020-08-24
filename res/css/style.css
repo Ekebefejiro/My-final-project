@@ -1,0 +1,93 @@
+body{
+	font-family:sans-serif; 
+}
+h1{
+	font-weight:900;
+
+}
+h2,h3,h4,h5,h6{
+	font-weight:500; 
+}
+h5{
+	color:chocolate;
+}
+.btn-tertiary{
+background:red;padding:1px;color:black;
+}
+.btn-secondary{
+	background:red!important;
+    border-radius:0;
+    border-color:grey!important;
+    color:black!important;
+   padding:5px;
+}
+.btn-secondary:hover{
+	color:white!important;
+	background-color:green;
+}
+.btn-primary{
+	background-color:burlywood!important;
+	border-radius:0;
+	border-color:grey!important;
+	color:black!important;
+	padding:3px!important;
+}
+.btn-primary:hover{
+	color:black;background-color:steelblue!important;
+}
+.navbar{
+border-bottom:2px solid grey;background:cadetblue;
+}
+.nav-link,.navbar-brand{
+	color:black;
+}
+.nav-link{
+	font-size:1.2rem;
+}
+.nav-link:link,.nav-link2:link{
+  color:black!important;	
+}
+.nav-link:visited,.nav-link2:visited{
+  color:red;	
+}
+
+.navbar-brand:hover{
+	color:chocolate;
+}
+.nav-link:hover,.nav-link2:hover{
+  color:chocolate;	
+}
+.nav-link:ative,.nav-link2:active{
+  color:tomato;	
+}
+.navbar-brand{
+font-size:2.5rem !important;
+}
+.img-fluid{
+height:100px;width:100px;
+}
+.fig-caption{
+position:absolute;text-align:center;color:red; 
+}
+.input{
+	padding:5px;width:180px;
+}
+.form-group{
+	width:400px!important;
+}
+.text-area{
+	resize:none!important;height:150px!important;
+}
+.footer{
+	color:black;
+	background:cadetblue;min-height:400px; 
+}
+.text-input{
+width:180px;border-radius:2px;padding:3px;	
+}
+@media (max-width:900px){
+	.nav .nav-item{
+		display:block;
+		width:100%;
+		padding:9px 2px;
+		text-align:center;
