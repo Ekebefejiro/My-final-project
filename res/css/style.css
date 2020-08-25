@@ -44,6 +44,15 @@ border-bottom:2px solid grey;background:cadetblue;
 .nav-link{
 	font-size:1.2rem;
 }
+	.nav-link2{
+		text-decoration:none;list-style:none;font-size:1rem;
+}
+.nav-link2:link{
+  color:cadetblue!important;
+  }
+  .nav-link2:visited{
+  color:red;
+  }	
 .nav-link:link,.nav-link2:link{
   color:black!important;	
 }
@@ -57,7 +66,7 @@ border-bottom:2px solid grey;background:cadetblue;
 .nav-link:hover,.nav-link2:hover{
   color:chocolate;	
 }
-.nav-link:ative,.nav-link2:active{
+.nav-link:active,.nav-link2:active{
   color:tomato;	
 }
 .navbar-brand{
@@ -73,10 +82,10 @@ position:absolute;text-align:center;color:red;
 	padding:5px;width:180px;
 }
 .form-group{
-	width:400px!important;
+	width:350px!important;
 }
 .text-area{
-	resize:none!important;height:150px!important;
+	resize:none!important;height:130px!important;
 }
 .footer{
 	color:black;
