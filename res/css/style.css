@@ -5,17 +5,19 @@ h1{
 	font-weight:900;
 
 }
-h2,h3,h4,h5,h6{
+h2,h3,h4,{
 	font-weight:500; 
 }
-h5{
-	color:chocolate;
+h4,h3{
+	color:chocolate!important;
+}
+.img-fluid{
+height:150px!important;	
 }
 .btn-tertiary{
 background:red;padding:1px;color:black;
 }
 .btn-secondary{
-	background:red!important;
     border-radius:0;
     border-color:grey!important;
     color:black!important;
@@ -39,60 +41,55 @@ background:red;padding:1px;color:black;
 border-bottom:2px solid grey;background:cadetblue;
 }
 .nav-link,.navbar-brand{
-	color:black;
+	color:black!important;
 }
 .nav-link{
 	font-size:1.2rem;
 }
 	.nav-link2{
-		text-decoration:none;list-style:none;font-size:1rem;
+	text-decoration:none;list-style:none;font-size:1rem;
 }
-.nav-link2:link{
-  color:cadetblue!important;
-  }
   .nav-link2:visited{
   color:red;
+  }
+  .nav-link2:hover{
+  color:dodgerblue;
+}
+.nav-link2:active{
+  color:black!important;
   }	
-.nav-link:link,.nav-link2:link{
+.nav-link:link,{
   color:black!important;	
 }
-.nav-link:visited,.nav-link2:visited{
+.nav-link:visited{
   color:red;	
 }
-
 .navbar-brand:hover{
-	color:chocolate;
+	color:chocolate!important;
 }
-.nav-link:hover,.nav-link2:hover{
-  color:chocolate;	
+.nav-link:hover,{
+  color:chocolate!important;	
 }
-.nav-link:active,.nav-link2:active{
-  color:tomato;	
+.nav-link:active{
+  color:tomato!important;	
 }
 .navbar-brand{
 font-size:2.5rem !important;
-}
-.img-fluid{
-height:100px;width:100px;
-}
-.fig-caption{
-position:absolute;text-align:center;color:red; 
-}
-.input{
-	padding:5px;width:180px;
-}
-.form-group{
-	width:350px!important;
-}
-.text-area{
-	resize:none!important;height:130px!important;
+
 }
 .footer{
 	color:black;
 	background:cadetblue;min-height:400px; 
 }
-.text-input{
-width:180px;border-radius:2px;padding:3px;	
+@media (max-width:468px){
+	h3,h5,p{
+text-align:center;
+	}
+	.nav-link2,.nav-item2{
+display:inline-flex;justify-content:center;
+align-items:center;
+width:100%;padding:25%;
+}
 }
 @media (max-width:900px){
 	.nav .nav-item{
@@ -100,3 +97,5 @@ width:180px;border-radius:2px;padding:3px;
 		width:100%;
 		padding:9px 2px;
 		text-align:center;
+	}
+}

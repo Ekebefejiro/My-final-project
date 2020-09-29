@@ -18,201 +18,439 @@
 <li class="nav-item"><a class="nav-link" href="#About">About us</a></li>
 <li class="nav-item"><a class="nav-link" href="#Featured-categories">Categories</a></li>
 <li class="nav-item"><a class="nav-link" href="#Contact">Contact us</a></li>
-<li class="nav-item"><a class="nav-link" href="#Featured-categories">Products</a></li><li class="nav-item"><a class="nav-link" href="#Login">Login</a></li><li class="nav-item"><input type="search" name="search" id="srch" placeholder="search here" ><i class="fa fa-search fa-1.5x text-danger px-1"id=find></i></li>	
+<li class="nav-item"><a class="nav-link" href="#Featured-categories">Products</a></li><li class="nav-item"><a class="nav-link" href="#Login">Login</a></li><li class="nav-item"><input type="search" name="search" id="srch" placeholder="Search here" class="px-3"><i class="fa fa-search fa-1.5x text-danger px-1"id=find></i></li>	
 </ul>
 </div>
 </div></nav>
 <section class="home container mb-5 py-5">
-<div class="row mt-5 mx-auto">
+<div class="row mt-5">
 <div class="col-md-4">
-<div class="row mt-3">
+<div class="row mt-4 mx-auto">
 <div class="col-md-12">
-<h5 class="mt-3"id="Featured-categories">Featured-categories</h5>
+<h4 class="mt-4"id="Featured-categories">Featured-categories</h4>
 <ul class="nav-link2 nav-item2 p-2">
-<li><a href="#Products">All categories</a></li>
-<li><a href="#Women-shoes">Ladies shoes</a></li>
-<li><a href="#Men-shoes">Men shoes</a></li>
-<li><a href="#Kids-shoes">Kids shoes</a></li>
+<li><a class="nav-link2" href="#Products">All categories</a></li>
+<li><a class="nav-link2" href="#Women-shoes">Ladies shoes</a></li>
+<li><a class="nav-link2" href="#Men-shoes">Men shoes</a></li>
+<li><a class="nav-link2" href="#Kids-shoes">Kids shoes</a></li>
 </ul>
 </div></div>
-<div class="row mt-4 mb-3 mx-auto">
-<div class="col-md-12 mt-4"><form>
-<h5 id="Login">Login</h5>
-<div class="text-input mt-2"><input type="text" placeholder="Enter your password" 
-id="login"></div>
-<button class="btn btn-secondary mt-2">Enter</button></form>
-</div></div>
+
+<div class="row mt-5 mb-3 mx-auto">
+<div class="col-md-12 mt-4">
+<form>
+<h4 id="Login" class="ml-5">Login</h4>
+<div class="form-group">
+<label for="password">Password</label>
+<input type="text" name="name" placeholder="Enter your password" class="form-control">
+<button class="btn btn-danger mt-3">Submit</button></div>
+</form></div></div>
+
 <div class="row mt-5 mx-auto">
 <div class="col-md-12 mt-5">
-<form><h5>Register</h5><p>Register here to become a distributor of our brand</p>
-<div class="mt-2 text-input">
-<input type="text" name="name" placeholder="Enter your name"></div>
-<div class="mt-2 text-input">
-<input type="Email" name="Email" placeholder="Enter your email"></div>
-<button class="btn btn-secondary mt-3">Enter</button>	
+<h4 class="ml-5">Register</h4><p>Register here to become a distributor of our brand</p>
+<form>
+<div class="form-group">
+<label for="Name">Name</label>
+<input type="text" name="name" placeholder="Enter your name" class="form-control">
+<label for="Email">Email</label>
+<input type="text" name="name" placeholder="Enter your name" class="form-control">
+<button class="btn btn-danger mt-3">Submit</button></div>	
 </form>	
 </div>
 </div>
+
 </div>
 <div class="col-md-8">
-<div class="row mt-3">
-<div class="col-xs-12"><h3 id="Products" class="text-center mt-3">Our Products</h3>
-</div></div>
-<div class="row mt-4">
-<div class="col-md-3"><figure><img class="img-fluid" src="res/img/shoe1.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3"><figure><img class="img-fluid" src="res/img/women shoe10.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3"><figure><img class="img-fluid" src="res/img/shoe5.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3"><figure><img class="img-fluid" src="res/img/shoe2.png"><figcaption class="text-center fig-caption" >Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
+<h3 id="Products" class=" mt-5 mx-auto">Our Products</h3>
+<div class="row mt-5">
+<div class=" col-md-3 p-2">
+<div class="card">
+<img src="res/img/shoe1.png" class="card-img-top img-fluid">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5><h6>
+<s>&#36;1000</s>&#36;500</h6><button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe10.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5><h6><s>&#36;1000</s>&#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe5.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe2.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div></div>
+
 <div class="row">
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/shoe4.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/baby-shoes3.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/shoe5.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/shoe6.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe4.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/baby-shoes3.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img2/guys2.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe5.png">
+<div class="card-body mx-auto">
+<h6>Easy slide</h6>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div></div>
+
 <div class="row">
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/shoe7.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe2.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe3.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe6.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe7.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe2.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe3.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe6.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div></div>
+
 <div class="row">
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe4.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe5.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe8.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-<div class="col-md-3 p-2"><figure><img class="img-fluid" src="res/img/women shoe7.png"><figcaption class="text-center fig-caption">Easy slide<s>&#36;1000</s> &#36;500</figcaption></figure></div>
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe4.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe5.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe8.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-3 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe7.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button>
+</div>
+</div>
 </div>
 </div>
 </div>	
 </section>
+
 <section>
 <div class="container">
 <div class="row mt-4 mx-auto">
 <div class="col-md-4 mt-4">
-<div class="row">
+<div class="row px-4">
 <div class="col-md-12">
-<span><h5 class="mt-3 mx-auto" id="Women-shoes">Ladies Shoes</h5></span></div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/women shoe9.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
+<span><h4 class="mt-3 mb-5 ml-5" id="Women-shoes">Ladies Shoes</h4></span>
 </div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/women shoe6.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div></div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2"><figure><img class="img-fluid" src="res/img/women shoe4.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/women shoe5.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div></div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/women shoe8.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/women shoe7.png"><figcaption class="text-center fig-caption">Easy slide<s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-</div>
-</div>
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe9.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i>
+</button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe6.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe4.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe5.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe8.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/women shoe7.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div></div>
+
+
 <div class="col-md-4 mt-4">
-<div class="row">
+<div class="row px-4">
 <div class="col-md-12">
-<span><h5 class="mt-3 mx-auto" id="Men-shoes">Men Shoes
-</h5></span></div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoe1.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoe7.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div></div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoes10.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoe9.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoe7.png"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoe8.png"><figcaption class="text-center fig-caption" >Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-</div></div>
+<span><h4 class="mt-3 mb-5 ml-5" id="Men-shoes">Men Shoes
+</h4></span></div>
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe1.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2 ">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe7.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoes10.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe9.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoe7.png">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img2/guys2.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div></div>
+
 <div class="col-md-4 mt-4">
-<div class="row">
+<div class="row px-4">
 <div class="col-md-12">	
-<span><h5 class="mt-3 mx-auto"id="Kids-shoes">Kids Shoes</h5></span></div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/baby shoe4.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
+<span><h4 class="mt-3 mb-5 ml-5"id="Kids-shoes">Kids Shoes</h4></span></div>
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/baby shoe4.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/baby-shoes1.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/baby-shoes2.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/baby-shoes3.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div></div>
+
+<div class="row px-4">
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoes col.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button></div></div></div>
+
+<div class="col-md-6 p-2">
+<div class="card">
+<img class="card-img-top img-fluid" src="res/img/shoes collection.jpg">
+<div class="card-body mx-auto">
+<h5>Easy slide</h5>
+<h6><s>&#36;1000</s> &#36;500</h6>
+<button class="btn btn-danger px-4"><i class="fa fa-cart-plus" aria-hidden="true">buy</i></button>
 </div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/baby-shoes1.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div></div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/baby-shoes2.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
 </div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/baby-shoes3.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div></div>
-<div class="row">
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoes col.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>
-<div class="col-md-6">
-<div class="px-2 py-2"><figure><img class="img-fluid" src="res/img/shoes collection.jpg"><figcaption class="text-center fig-caption">Easy slide <s>&#36;1000</s> &#36;500</figcaption></figure></div>
-</div>	
 </div>
 </div>
 </div>
 </section>
-<section class="container">
-<div class="row mt-5">
-<div class="col-md-6 px-auto mx-auto"><span><h4 id="About">About Comfy Shoe Brand<i class="fa fa-people fa-1.5x px-1 text-danger"></i></h4></span><p>We have been in existence for over 20 decades giving comfort to our esteemed customers in all the
+
+<section class="container mt-5">
+<div class="row">
+<div class="col-md-6 text-center w-100 px-3"><span>
+<h3 id="About">About Comfy Shoe Brand<i class="fa fa-people fa-1.5x px-1 text-danger"></i></h3></span>
+	<p class="mt-3 py-1">We have been in existence for over 20 decades giving comfort to our esteemed customers in all the
  continents of the world.</p>
-<p>Our mission is basically to provide our customers with comfort and confidence with the Comfy brand, while creating direct jobs for dealers through affordable and flexible costs and lots of indirect jobs that helps boost an economy</p>
-<p>We hope to have infilterated every part of the continent with our brand in the year to come, and earned recognition as the number one shoe brand in the world</p>
-<button type="Submit" class="btn btn-md btn btn-secondary">More</button>
-</div>
-<div class="col-md-6 px-auto mt-2 mx-auto"><span><h4 id="Contact">Contact Us<i class="fa fa-envelope fa-1.5x text-danger px-1"></i></h4></span>
-<form>
-<div class="mt-2">
-	<input type="text" name="name" placeholder="Enter your name" class=" form-group">
+<p class="mt-3 py-1">Our mission is basically to provide our customers with comfort and confidence with the Comfy brand, while creating direct jobs for dealers through affordable and flexible costs and lots of indirect jobs that helps boost an economy</p>
+<p class="mt-3 py-1">We hope to have infilterated every part of the continent with our brand in the year to come, and earned recognition as the number one shoe brand in the world</p>
+<button type="Submit" class="btn btn-md btn btn-danger mt-4 mb-3">More
+</button>
 </div>
 
-<div class="mt-2">
-	<input type="Email" name="Email" class="form-group" placeholder="Enter your email">
+<div class="col-md-6 px-3 pt-1">
+<h3 class="text-center w-100">Contact Us<i class="fa fa-envelope fa-1.5x px-1 text-danger"></i></h3>	
+<form >
+<div class="form-group">
+	<label for="Name">Name</label>
+	<input type="text" name="name" placeholder="Enter your name" class="form-control">
 </div>
-<div class="mt-2">
-	<textarea id="message" placeholder="Type your message"rows="5" class="text-area form-group"></textarea>
+<div class="form-group">
+	<label for="Email">Email</label>
+	<input type="Email" name="Email" class="form-control"aria-describedly="emailHint">
+	<small id="emailHint" class="form-text text-muted">your email is safe with us</small>
 </div>
-<button type="Submit" class="btn btn-md btn btn-secondary mt-0">Submit</button>
+<div class="form-group">
+	<label for="Name">Message</label>
+	<textarea id="message" placeholder="Type your message" class="form-control" rows="3"></textarea>
+</div>
+<button type="Submit" class="btn btn-md btn btn-danger">Submit</button>
 </form>
-</div></div>
+</div>
+</div>	
 </section>
+
 <section>
 <footer class="footer mt-5 container-fluid">
-<div class="row">
-<div class="col-md-12 text-center px-auto mt-4"><h2 >Comfy</h2>
-</div></div>
-<div class="col-md-12 text-center px-auto"><p>We give our customers the comfort they desire with our brand.</p>
-<div class="col-md-12 text-center px-auto"><h3>Subscribe to our newsletter to get the latest on your shoe brand</h3></div>
-<div class="col-md-12 mx-auto"><input type="text" name="text" class="text-input px-auto" placeholder="Enter your email"><button class="btn btn-secondary px-auto">Subscribe</button></div>
-<ul class="list-unstyled"><div class="col-md-8 d-flex offset-md-2 align-items-center justify-content-center mt-3">
-<li><a href="#"><i class="fa fa-facebook fa-2x text-primary p-3"></i></a></li>
-<li><a href="#"><i class="fa fa-twitter fa-2x text-secondary p-3"></i></a></li>
+<div class="col-md-12 text-center w-100 mt-5 ">
+<h1 >Comfy</h1>
+<p>We give our customers the comfort they desire with our brand.</p>
+<h2>Subscribe to our newsletter to get the latest on your best shoe brand</h2></div>
+<div class="col-md-4 mx-auto">
+<form class="form-group"><label for="Email">Email</label>
+<input type="Email" name="Email" placeholder="Enter your email" class="form-control">
+<button type="Submit" class="btn btn-md btn-danger mt-2">Submit</button>
+</form>
+</div>
+<ul class="list-unstyled">
+<div class="col-md-8 d-flex offset-md-2 align-items-center justify-content-center mt-3">
+<li><a href="#"><i class="fa fa-facebook fa-2x text-primary p-3"></i></a>
+</li>
+<li><a href="#"><i class="fa fa-twitter fa-2x text-secondary p-3"></i></a>
+</li>
 <li><a href="#"><i class="fa fa-google fa-2x text-danger p-3"></i></a></li>
-<li><a href="#"><i class="fa fa-instagram fa-2x text-success p-3"></i></a></li>
+<li><a href="#"><i class="fa fa-instagram fa-2x text-success p-3"></i></a>
+</li>
 </ul>
 </div>
 </div>
 <div class="copyright text-center py-1 border-top text-muted">
 <b><p>Designed by  Phejiro &copy; 2020</p></b>
 </div>
-</footer></section>	
+</footer>
+</section>	
 <script src="res/js/jquery.min.js"></script>
 	<script src="res/js/popper.min.js"></script>
 	<script src="res/js/bootstrap.min.js"></script>
